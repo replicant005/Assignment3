@@ -1,0 +1,33 @@
+ [
+    {
+      "title": "Riverbank Restoration",
+      "description": "Spend the day restoring the riverbank and removing waste to protect wildlife.",
+      "date": "2025-02-05T09:00:00",
+      "category": "Cleanup"
+    },
+    {
+      "title": "Charity Dinner Night",
+      "description": "An evening of fine dining and philanthropy to support community programs.",
+      "date": "2025-02-10T19:00:00",
+      "category": "Fundraiser"
+    },
+    {
+      "title": "Eco-Friendly Living Workshop",
+      "description": "Discover simple yet effective ways to live a more sustainable lifestyle.",
+      "date": "2025-02-15T14:00:00",
+      "category": "Workshop"
+    },
+    {
+      "title": "Community Garden Day",
+      "description": "Join us in maintaining and beautifying a local community garden.",
+      "date": "2025-03-01T08:00:00",
+      "category": "Cleanup"
+    },
+    {
+      "title": "Innovation for Impact",
+      "description": "Explore how technology can drive positive change in communities.",
+      "date": "2025-03-10T09:00:00",
+      "category": "Workshop"
+    }
+  ]
+

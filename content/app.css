@@ -1,0 +1,253 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: coral;
+    color: black;
+    padding-top: 50px;
+}
+
+header {
+    background-color: black;
+    color: grey;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 3px solid grey;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.hero-section {
+    background-color: grey;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.hero-section .btn {
+    background-color: black;
+    border-color: black;
+    color: grey;
+    padding: 12px 28px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.hero-section .btn:hover {
+    background-color: grey;
+    border-color: coral;
+    color: black;
+}
+
+#volunteer-carousel .carousel-item img {
+    object-fit: cover;
+    height: 350px;
+    border-radius: 8px;
+}
+
+.navbar {
+    background-color: grey;
+    padding: 0.8rem 0;
+    box-shadow: 0 3px 2px -1px black;
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    color: black;
+}
+
+.navbar-nav .nav-link:hover {
+    color: coral;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    padding: 0.7rem 0;
+    font-size: 0.85rem;
+    text-align: center;
+    border-top: 2px solid coral;
+}
+
+footer .nav-link:hover {
+    color: coral;
+}
+
+.card {
+    background-color: grey;
+    border-radius: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+.card img {
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 18px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: black;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: black;
+    color: grey;
+}
+
+.btn-primary:hover {
+    background-color: coral;
+    border-color: coral;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 1.4rem;
+    }
+    .hero-section p {
+        font-size: 0.8rem;
+    }
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: black;
+    color: grey;
+    border: 2px solid coral;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+#backToTop:hover {
+    background-color: coral;
+    color: black;
+}
+
+.event-card {
+    border: 1px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.event-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.event-date {
+    font-style: italic;
+    color: black;
+}
+
+.event-category {
+    font-weight: 600;
+    color: black;
+}
+
+#backToHome {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#backToHome:hover {
+    background-color: grey;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: grey !important;
+    color: white !important;
+    border-color: grey !important;
+}
+
+.input-group .form-control:last-child
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login
+{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: lightgrey;
+    border-radius: .3rem;
+}
+
+.login input
+{
+    background-color: white;
+    border-color: darkgrey;
+    border-radius: .4em;
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+
+    <h1>Feedback</h1>
+
+    <!-- Feedback Form -->
+    <form class="col-lg-6 col-md-10 col-sm-12 mb-4" id="feedbackForm">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Name</span>
+            <input id="feedbackName" name="name" type="text" class="form-control" required>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Email</span>
+            <input id="feedbackEmail" name="email" type="email" class="form-control" required>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Rating</span>
+            <select id="rating" name="rating" class="form-control" required>
+                <option value="5">5 - Excellent</option>
+                <option value="4">4 - Good</option>
+                <option value="3">3 - Average</option>
+                <option value="2">2 - Poor</option>
+                <option value="1">1 - Very Bad</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Comments</span>
+            <textarea id="comments" name="comments" class="form-control" rows="3" required></textarea>
+        </div>
+
+        <button id="feedbackSubmitBtn" type="submit" class="btn btn-success"><i class="fa-solid fa-comment"></i> Submit Feedback</button>
+    </form>
+
+    <!-- Confirmation Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Submission Successful</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="confirmationModalBody">
+                </div>
+            </div>
+        </div>
+    </div>
+
+

@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "src": "content/images/cleaning-up-park-1024x576.jpg",
+      "thumbnail": "content/images/cleaning-up-park-1024x576.jpg",
+      "title": "Volunteer Activity 1",
+      "description": "Description for Volunteer Activity 1."
+    },
+    {
+      "src": "content/images/Cover.webp",
+      "thumbnail": "content/images/Cover.webp",
+      "title": "Volunteer Activity 2",
+      "description": "Description for Volunteer Activity 2."
+    },
+    {
+      "src": "content/images/download.jpeg",
+      "thumbnail": "content/images/download.jpeg",
+      "title": "Volunteer Activity 3",
+      "description": "Description for Volunteer Activity 3."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+
+<!-- Volunteer Opportunities Section -->
+<section class="container py-5">
+    <h2 class="text-center mb-4">Volunteer Opportunities</h2>
+    <div id="opportunity-cards" class="row">
+        <!-- Cards will be dynamically inserted here -->
+    </div>
+</section>
+
+<!-- Sign Up Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signupModalLabel">Sign Up for Opportunity</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="signupForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="role" class="form-label">Preferred Role</label>
+                        <input type="text" class="form-control" id="role" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <div id="confirmationMessage" class="mt-3" style="display:none;">
+                    <p class="text-success">Thank you for signing up! We'll contact you soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

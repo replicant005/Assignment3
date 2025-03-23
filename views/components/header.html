@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#/home">Volunteer Connect</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item" id="home"><a class="nav-link" href="#/home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li class="nav-item" id="opportunities"><a class="nav-link" href="#/opportunities"><i class="fa-solid fa-handshake-angle"></i> Volunteer Now</a></li>
+                <li class="nav-item" id="events"><a class="nav-link" href="#/events"><i class="fa-solid fa-calendar-days"></i> Events</a></li>
+                <li class="nav-item" id="contact"><a class="nav-link" href="#/contact"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                <li class="nav-item" id="about"><a class="nav-link" href="#/about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+
+                <!-- Authenticated User Dropdown -->
+                <li class="nav-item dropdown" id="userDropdown" class="d-none">
+                    <a class="nav-link dropdown-toggle" href="#" id="userMenu" role="button" data-bs-toggle="dropdown">
+                        <i class="fas fa-user-circle"></i> <span id="welcomeMessage"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="userMenu">
+                        <li><a class="dropdown-item" href="#/event-planning"><i class="fas fa-calendar-plus"></i> Plan Event</a></li>
+                        <li><a class="dropdown-item" href="#/statistics"><i class="fas fa-chart-bar"></i> Statistics</a></li>
+
+                    </ul>
+                </li>
+
+                <!-- Login/Logout Link -->
+                <li class="nav-item" id="loginItem">
+                    <a id="login" class="nav-link" href="#/login"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+
+                <!-- More Dropdown -->
+                <li class="nav-item dropdown" id="more">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#/news"><i class="fas fa-newspaper"></i> Community News</a></li>
+                        <li><a class="dropdown-item" href="#/privacy-policy"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="#/terms-of-service"><i class="fas fa-file-contract"></i> Terms of Service</a></li>
+                        <li><a class="dropdown-item" href="#/gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                    </ul>
+                </li>
+
+                <!-- Search Bar -->
+                <li class="nav-item ms-auto">
+                    <input id="searchBar" class="form-control" type="text" placeholder="Search Events, Volunteer Opportunities, News" aria-label="Search">
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
